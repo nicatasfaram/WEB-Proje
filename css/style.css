@@ -1,0 +1,70 @@
+html, body{
+    height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden; /*Nujno posmotret dlya ceqo eto*/
+}
+
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.parallax{
+    position: relative;
+    height: 100%;
+}
+
+.parallax_montain{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.parallax_montain_1{
+    background: url(../img/m_1.png) 0 0 / cover no-repeat;
+}
+.parallax_montain_2{
+    background: url(../img/m_2.png) bottom right / 45% no-repeat;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.parallax_montain_3{
+    background: url(../img/m_3.png) left bottom / 100% no-repeat;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.parallax_fog{
+    background: url(../img/fog_1.png) center / cover no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.content{
+    position: relative;
+}
+
+.container-lg{
+    background-color: rgba(255, 255,255,0.5);
+}
+
+.content_body{
+    margin: 0px auto;
+}
+
+/*.content_header{}
