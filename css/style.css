@@ -29,6 +29,14 @@ html, body{
     left: 0;
 }
 
+.bg_login{
+    position: fixed;
+    background: url(../img/login_bg.png) 0 0/ cover no-repeat;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 .parallax_montain_1{
     background: url(../img/m_1.png) 0 0 / cover no-repeat;
 }
@@ -67,4 +75,16 @@ html, body{
     margin: 0px auto;
 }
 
+.form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    margin:auto;
+    background-color:rgba(167, 167, 167, 0.849);
+    border-radius: 5px;
+  }
+
 /*.content_header{}
+
+
+
