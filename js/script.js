@@ -22,5 +22,9 @@ $(document).ready(function(){
         var hr_2 = wight/1500*percent_height_parallax;
         var z_4 = 1+(wight*0.00001*percent_height_parallax);
         $('.parallax_montain_3').css('transform','translate3d('+-hr_2+'px,0,0) scale('+z_4+')');
+
+        var z_5 = 1 + (wight/5000000*percent);
+        $('.parallax_city').css('transform', 'scale('+z_2+')');
+
     });
 }); 

@@ -37,6 +37,15 @@ html, body{
     left: 0;
 }
 
+
+.parallax_city{
+    background: url(../img/city_bg.jpeg) center;
+}
+
+.parallax_contacts{
+    background: url(../img/mountane-bg_4.jpg) 0 0 / cover no-repeat;
+}
+
 .parallax_montain_1{
     background: url(../img/m_1.png) 0 0 / cover no-repeat;
 }
@@ -71,9 +80,15 @@ html, body{
     background-color: rgba(255, 255,255,0.5) !important;
 }
 
+.content-bg-dark{
+    background-color: rgba(0,0,0,0.7) !important;
+    color: rgba(0, 0, 0, 0.7);
+}
+
 .content_body{
     margin: 0px auto;
 }
+
 
 .form-signin {
     width: 100%;
