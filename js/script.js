@@ -8,10 +8,6 @@ $(document).ready(function(){
             var percent_height_parallax = scroll/height_paralax*100;
             var opacity = 1-1/100*percent_height_parallax;
 
-            var z_1=1+(wight/10000*percent_height_parallax);
-        $('.parallax_fog').css('transform','scale('+z_1+')');
-        $('.parallax_fog').css('opacity', opacity);
-
         var z_2 = 1 + (wight/5000000*percent);
         $('.parallax_montain_1').css('transform', 'scale('+z_2+')');
 
