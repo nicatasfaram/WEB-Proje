@@ -8,7 +8,7 @@ $(document).ready(function(){
             var percent_height_parallax = scroll/height_paralax*100;
             var opacity = 1-1/100*percent_height_parallax;
 
-        var z_2 = 1 + (wight/5000000*percent);
+        var z_2 = 1 + (wight/2000000*percent);
         $('.parallax_montain_1').css('transform', 'scale('+z_2+')');
 
         var hr = wight/2000*percent_height_parallax;
