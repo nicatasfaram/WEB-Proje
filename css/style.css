@@ -95,7 +95,11 @@ html, body{
     border-radius: 5px;
   }
 
-/*.content_header{}
+  .card:hover
+  {
+    transition: all 200ms;
+    transform: scale(1.1);
+  }
 
 
 
